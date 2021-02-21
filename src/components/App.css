@@ -1,0 +1,10 @@
+.savedImages {
+  border: 1px solid black;
+  padding: 1rem;
+}
+.ui.segment {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}

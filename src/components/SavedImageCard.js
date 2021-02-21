@@ -1,9 +1,9 @@
 import React from "react";
-import LikeButton from "./LikeButton";
+import DeleteButton from "./DeleteButton";
 
 import "./ImageCard.css";
 
-class ImageCard extends React.Component {
+class SavedImageCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = { spans: 0 };
@@ -32,18 +32,18 @@ class ImageCard extends React.Component {
         <img ref={this.imageRef} alt={description} src={url} />
         <div
           onClick={() =>
-            this.props.onClickSave({
+            this.props.onClickDelete({
               id: this.props.image.id,
               url: this.props.image.url,
               description: this.props.image.description,
             })
           }
         >
-          <LikeButton />
+          <DeleteButton />
         </div>
       </div>
     );
   }
 }
 
-export default ImageCard;
+export default SavedImageCard;

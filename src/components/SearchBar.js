@@ -1,12 +1,8 @@
 import React from "react";
+import { getAll } from "../savedImagesRepository";
 
 class SearchBar extends React.Component {
-  state = { term: "" };
-
-  grabSavedImages = () => {
-    // localStorage.filter("image-").get();
-    this.props.onChange(true);
-  };
+  state = { term: "", savedImages: [] };
 
   onFormSubmit = (e) => {
     e.preventDefault();
@@ -27,10 +23,6 @@ class SearchBar extends React.Component {
             />
           </div>
         </form>
-        <br></br>
-        <button className="ui button" onClick={this.grabSavedImages}>
-          Saved Images
-        </button>
       </div>
     );
   }
