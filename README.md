@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<p align="center">
+<img src="https://github.com/CaeRoberts/ImageApp/blob/master/public/Img.png?raw=true" width="400" height="200">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- - - -
+<h1 align="center">
+Image Search n' Save App 📷
+</h1>
+An image search app powered by the Unsplash API with added functionality to enable saved images - the ability to save an image to the localStorage to access at a later time.  
 
-## Available Scripts
 
-In the project directory, you can run:
+<br>
+<p align="center">
+<img src="https://github.com/CaeRoberts/CaeRoberts.GitHub.io/blob/main/StarWars.PNG?raw=true" width="400" height="400">
+</p>
+<br>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description 📓
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Thanks for visiting my GitHub, you can access the Image App [here](https://github.com/CaeRoberts/ImageApp). The project is divided into 3 sections. 
 
-### `npm test`
+Section  | Description
+------------- | -------------
+Search Bar  | An easy to use Search Bar that setsState based on search query and returns it to the Unsplash API. Passes information through props for access by the Image List.
+Image List  | Takes information derived from the Search Bar (through the APP) and displays images in individual grid cards styled by Semantic UI. Passes information to a sub-component imageCard. 
+Saved Images Section  | Displays images that have been "hearted" in the same format as Image List. Uses localStorage to retain image keys & URL. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Status 👷
+- [x] Added Unsplash API
+- [x] Added SearchBar / ImageList components with callback functions
+- [x] Added Imagecards & Semantic UI for better styling in a grid format
+- [x] Added the ability to "heart" an image to save into LocalStorage
+- [x] Added the functionality to re-access the saved images
+- [ ] Added ability to delete saved images
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Author 💻
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Just me - Cae Roberts. Made with Blood (HTML), Sweat (CSS) & Tears (React & JSC) with a touch of inspiration from [Google Images](https://images.google.com/) & my mentor Vali.
 
-### `npm run eject`
+## Contact 📞
+I love to get feedback, comments & enquiries. Want to talk? Get in touch through one of the links on my links [page](https://caeroberts.github.io/).
+<br>
+[LinkedIn](https://www.linkedin.com/in/caeronroberts/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</p>
